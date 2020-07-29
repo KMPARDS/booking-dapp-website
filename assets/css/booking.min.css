@@ -14834,7 +14834,7 @@ body[data-fade_in="on-load"],
   bottom: -1px;
   left: -20%;
   right: -20%;
-  z-index: 1;
+  z-index: -1;
 }
 
 @media (min-width: 768px) {
@@ -18129,4 +18129,38 @@ body.coming-soon .ui-counter > div .label {
 .error404-page .main .error404-wrapper .heading {
   font-size: 3.6rem;
   margin: 2rem 0;
+}
+.social-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.social-menu li {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 6px;
+}
+
+.social-menu li a i {
+   width: 31px;
+    height: 30px;
+background: #00c6ff;
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);
+    background: linear-gradient(to right, #0072ff, #00c6ff);
+    text-align: center;
+    line-height: 30px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 14px;
+    -webkit-box-shadow: 0 0 0 0 transparent;
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.social-menu li a:hover i {
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, .4);
+   box-shadow: 0 0 10px 0 rgba(0, 0, 0, .4)
 }
